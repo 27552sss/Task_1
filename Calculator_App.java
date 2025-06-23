@@ -98,7 +98,7 @@ public class Calculator_App {
                 history.add(record);
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter numeric values.");
-                sc.nextLine(); // clear buffer
+                sc.nextLine(); 
             } catch (ArithmeticException e) {
                 System.out.println("Math Error: " + e.getMessage());
             } catch (Exception e) {
